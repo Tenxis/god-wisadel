@@ -1,3 +1,19 @@
+*{
+    color: darkred;
+}
+
+body{
+    background-color: burlywood;
+}
+
+main{
+width: 50%;
+background-color: wheat;
+display: block;
+margin: -1.4rem auto;
+height: 100vh;
+}
+
 img{
   display: block;
 }
@@ -10,4 +26,30 @@ img{
 
 figcaption{
   text-align:center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+p{
+    text-align: center;
+    margin: 5vh auto;
+}
+
+.bold{
+    font-weight: 1000;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.large{
+    font-size: 3rem;
+}
+
+.medium{
+    font-size: 1.5rem;
 }
