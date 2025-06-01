@@ -33,6 +33,10 @@ img{
     color:black;
 }
 
+.blue{
+    color:blue;
+}
+
 figcaption{
   text-align:center;
 }
@@ -69,4 +73,18 @@ p{
     position:absolute;
     bottom: 0;
     right: 0;
+}
+
+.arknights:hover{
+    color:wheat;
+    background-color: black;
+}
+
+.arknights:active{
+    color:white;
+    background-color: black;
+}
+
+.arknights:visited{
+    color: skyblue;
 }
