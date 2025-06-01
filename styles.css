@@ -1,5 +1,6 @@
 *{
     color: darkred;
+    box-sizing: border-box;
 }
 
 body{
@@ -10,8 +11,12 @@ main{
 width: 50%;
 background-color: wheat;
 display: block;
-margin: -1.4rem auto;
+margin: -0.5rem auto;
 height: 100vh;
+border: 0.5rem solid black;
+border-style: double;
+padding: 0.5rem;
+position: relative;
 }
 
 img{
@@ -24,6 +29,10 @@ img{
   margin:0 auto;
 }
 
+.black{
+    color:black;
+}
+
 figcaption{
   text-align:center;
 }
@@ -31,6 +40,7 @@ figcaption{
 h1{
     text-align: center;
     margin-bottom: 10vh;
+    color:black;
 }
 
 p{
@@ -52,4 +62,11 @@ p{
 
 .medium{
     font-size: 1.5rem;
+}
+
+#certified{
+    max-width:100%;
+    position:absolute;
+    bottom: 0;
+    right: 0;
 }
